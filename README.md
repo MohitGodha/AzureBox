@@ -5,3 +5,4 @@
 - VSTS setup
 - Recording setup
 - Several tools and sevices setup
+- ARM Templates
