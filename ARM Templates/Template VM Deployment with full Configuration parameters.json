@@ -1,0 +1,78 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "azureubuntu304"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/4e28c6b0-db3e-40f7-9a3a-aaa133e7561b/resourceGroups/testmg/providers/Microsoft.Network/networkSecurityGroups/test-nsg1"
+        },
+        "subnetName": {
+            "value": "Subnet1"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/4e28c6b0-db3e-40f7-9a3a-aaa133e7561b/resourceGroups/testmg/providers/Microsoft.Network/virtualNetworks/test-vnet1"
+        },
+        "publicIpAddressName": {
+            "value": "AzureUbuntu-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "virtualMachineName": {
+            "value": "AzureUbuntu"
+        },
+        "virtualMachineRG": {
+            "value": "testmg"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "azure"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "testmgdiag997"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/testmgdiag997"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountKind": {
+            "value": "Storage"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "India Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "en"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": "mohit.godha@celebaltech.com"
+        }
+    }
+}
